@@ -43,13 +43,16 @@ export default function Header() {
           ))}
         </nav>
 
-        <button
-          type="button"
-          aria-label="Iniciar sesión (próximamente)"
+        {/* The flagship project, always in view. Goes to the landing, not the
+            app: a visitor here has no account and would hit a login. */}
+        <a
+          href="https://psiconsultorio.com.ar"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-sm font-medium text-accent border border-accent px-4 py-1.5 rounded-sm hover:bg-accent hover:text-white transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"
         >
-          Iniciar sesión
-        </button>
+          psiconsultorio ↗
+        </a>
       </div>
     </header>
   )
