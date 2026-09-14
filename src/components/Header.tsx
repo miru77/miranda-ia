@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import Link from 'next/link'
 
 const navLinks = [
   { label: 'Sobre mí', href: '#sobre-mi' },
@@ -27,9 +26,9 @@ export default function Header() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="font-mono text-sm font-medium tracking-widest text-accent">
+        <a href="#inicio" className="font-mono text-sm font-medium tracking-widest text-accent">
           MIRANDA<span className="text-signal">.IA</span>
-        </Link>
+        </a>
 
         <nav className="hidden md:flex items-center gap-8" aria-label="Navegación principal">
           {navLinks.map(({ label, href }) => (

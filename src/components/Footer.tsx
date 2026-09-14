@@ -4,9 +4,12 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
 
         <div className="flex items-center gap-3">
-          <span className="font-mono text-sm font-medium text-accent">
+          <a
+            href="#inicio"
+            className="font-mono text-sm font-medium text-accent hover:opacity-80 transition-opacity duration-200"
+          >
             MIRANDA<span className="text-signal">.IA</span>
-          </span>
+          </a>
           <span className="text-border" aria-hidden>|</span>
           <span className="font-mono text-xs text-ink-muted">miranda-ia.net.ar</span>
         </div>
