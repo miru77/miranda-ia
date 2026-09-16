@@ -3,6 +3,7 @@ import Hero from '@/components/Hero'
 import ProyectoDestacado from '@/components/ProyectoDestacado'
 import SobreMi from '@/components/SobreMi'
 import Proyectos from '@/components/Proyectos'
+import FAQ from '@/components/FAQ'
 import Contacto from '@/components/Contacto'
 import Footer from '@/components/Footer'
 
@@ -77,6 +78,7 @@ export default function Home() {
         <ProyectoDestacado />
         <SobreMi />
         <Proyectos />
+        <FAQ />
         <Contacto />
       </main>
       <Footer />
