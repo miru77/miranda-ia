@@ -1,6 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- The header wordmark, reduced to a tab: the accent M and the signal dot of MIRANDA.IA. -->
-  <rect width="32" height="32" rx="6" fill="#1A4B8C"/>
-  <path d="M7.5 23V9.5l7 8 7-8V23" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="26" cy="22.5" r="2.3" fill="#059669"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="32" height="32" role="img" aria-label="Miranda IA">
+  <title>Miranda IA</title>
+  <!--
+    The header wordmark, reduced to a tab: the accent M and the signal dot of
+    MIRANDA.IA. The M is SOLID now, not stroked — the previous 3.2/32 stroke
+    landed on 1.6px in a 16px tab and went spidery.
+
+    This is NOT public/brand/marca.svg scaled down: here the drawing fills 22%
+    more of the square so the green block survives. At the mark's own
+    proportions that block renders about 4px wide in a tab and vanishes, and
+    it is the only thing separating this from a generic letter in a box.
+  -->
+  <rect width="200" height="200" rx="30" fill="#1A4B8C"/>
+  <path d="M 22 148 L 22 55 L 54 55 L 78 101 L 102 55 L 134 55 L 134 148 L 112 148 L 112 81 L 85 127 L 71 127 L 44 81 L 44 148 Z" fill="#FFFFFF"/>
+  <rect x="149" y="115" width="29" height="33" fill="#10B981"/>
 </svg>
